@@ -18,4 +18,10 @@ public class Mago {
 
         return false;
     }
+
+    public void recuperarMana(int cantidad) {
+        if (cantidad > 0) {
+            mana = mana + cantidad;
+        }
+    }
 }
